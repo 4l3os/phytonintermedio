@@ -37,7 +37,13 @@ print(current_time.second)
 
 from datetime import date 
 
-current_date= date( )
+current_date= date.today( )
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
+current_date= date(2024,6,20 )
 
 print(current_date.year)
 print(current_date.month)
