@@ -24,3 +24,21 @@ timestamp= now.timestamp()
 print(timestamp)
 
 
+
+from datetime import time
+
+current_time= time( 21, 6, 0)
+
+print(current_time.hour)
+print(current_time.minute)
+print(current_time.second)
+
+
+
+from datetime import date 
+
+current_date= date( )
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
